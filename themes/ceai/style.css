@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Nunito';
+    font-display: swap;
+    src: url("fonts/Nunito-VariableFont_wght.ttf") format('truetype');
+} 
+
+@font-face {
+    font-family: 'OpenSans';
+    font-display: swap;
+    src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+body {
+    font-family: OpenSans;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+body.html {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+header {
+    background-color: #055ea3;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 10px;
+}
+
+header.html {
+    height: 80px;
+    margin-top: 0px;
+}
+
+.header-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 150px;
+    background-image: url('MCN_blanc.svg');
+}
+
+header.html > div.header-logo {
+    background-repeat: no-repeat;
+    background-position: 25px 0px;
+    height: 80px;
+    width: 230px;
+}
+
+.header-author {
+    margin-left: 150px;
+    padding-top: 15px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header.html > div.header-author {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 230px;
+}
+
+footer {
+    background-color: #223654;
+}
+
+footer.html {
+    position: absolute;
+    bottom: 30px;
+    width: calc(100% - 60px);
+}
+
+.footer-author {
+    padding: 10px;
+    color: #ffffff;
+    text-align: right;
+    font-family: OpenSans;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+footer.html > div.footer-author {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Nunito;
+    font-weight: 300;
+    color: #2d2e83;
+    border-bottom: 3px solid #bde3f2
+}
+
+body.html h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+
+h2 {
+    font-size: 22px;
+    font-family: Nunito;
+    font-weight: bold;
+    /*color: #19255b;*/
+    /*color: #38a8e0;*/
+    color: #055ea3;
+    text-transform: uppercase;
+}
+
+body.html h2 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: Nunito;
+    font-weight: lighter;
+    color: #2d2e83;
+}
+
+body.html h3 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+p {
+    font-family: OpenSans;
+    font-weight: 300;
+}
+
+table {
+    border: 1px solid #96a7d2;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #055ea3;
+    color: #ffffff;
+    font-family: OpenSans;
+    font-weight: 600;
+}
+
+thead > tr > th {
+    padding: 4px;
+    border: 1px solid #ffffff;
+}
+
+tbody > tr > td {
+    padding: 4px;
+    border: 1px solid #96a7d2;
+}
+
+strong, b {
+    font-weight: bold;
+}
